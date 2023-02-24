@@ -1,4 +1,4 @@
-#include "main.h'
+#include "main.h"
 
 /**
 * print_number - a function that prints an integer.
@@ -9,13 +9,8 @@
 
 void print_number(int n)
 {
-unasigned int n1;
-
-if (n < 0)
-{
-n1 = -n
-_putchar('-');
-}
+if (n == 0)
+_putchar('0');
 else if (n < 0)
 {
 _putchar('-');
